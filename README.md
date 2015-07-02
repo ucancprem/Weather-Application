@@ -19,10 +19,15 @@ Spring-MVC-maven based weather application
 [access home page!](http://localhost:8080/weatherdisplay/display)
 
 5) Some of the Inputs you may want to use
+
 1) no zip code (Invalid)
+
 2) 00 (Invalid)
+
 3) 00000 (Invalid)
+
 4) 07104 (valid)
+
 5) 02201-1020 (valid)
 6) aaa(Invalid)
 
