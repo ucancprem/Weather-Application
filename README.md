@@ -23,7 +23,7 @@ Spring-MVC-maven based weather application
 
 #Run Unit Tests
 
-Open your command prompt(use `cmd`) and navigate into folder "Weather-Application"
+Open your command prompt(use `cmd`) and navigate to the folder "Weather-Application"
 
 #a) Run all the methods in both test classes using below commands
 
