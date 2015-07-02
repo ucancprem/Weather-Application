@@ -1,0 +1,44 @@
+
+img
+{
+	background-image: blur(100px);
+}
+
+.weatherEntry
+{
+	position: absolute;
+	left: 40%;
+	color: Black;
+	font: bolder;
+	font-size: 4rem;
+	text-align:  center;
+}
+.mainEntry {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	text-align:  center;
+}
+.imgClass
+{
+	background-color: black;
+}
+#submit #zip.errors
+{
+	font-size: 2rem;
+}
+h1
+{
+	text-align:  center
+}
+
+#slideshow, img.bgM {
+        min-height: 100%;
+        min-width: 1024px;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index:-9999;
+}
