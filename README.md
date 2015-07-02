@@ -29,5 +29,6 @@ Spring-MVC-maven based weather application
 4) 07104 (valid)
 
 5) 02201-1020 (valid)
+
 6) aaa(Invalid)
 
