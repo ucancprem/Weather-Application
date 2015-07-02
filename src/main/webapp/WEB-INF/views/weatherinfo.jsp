@@ -19,8 +19,8 @@
 </head>
 <body>
 <div id="slideshow">
-<img class="bgM" src="<c:url value="/"/>resources/images/snow.jpg"/>
 <img class="bgM" src="<c:url value="/"/>resources/images/sunny.jpg"/>
+<img class="bgM" src="<c:url value="/"/>resources/images/snow.jpg"/>
 <img class="bgM" src="<c:url value="/"/>resources/images/rain.jpg"/>
 </div>
 
