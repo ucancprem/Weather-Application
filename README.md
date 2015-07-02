@@ -3,7 +3,7 @@ Spring-MVC-maven based weather application
 
 #Steps to run this project on your local machine.
 
-1)To download/clone this project onto your local machine use the below command
+1)To download/clone this project onto your local machine run the below command in git bash(command line utility to download git projects)
 
  `git clone https://github.com/ucancprem/Weather-Application.git`
 
