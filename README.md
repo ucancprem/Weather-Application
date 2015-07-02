@@ -7,7 +7,7 @@ Spring-MVC-maven based weather application
 
  `git clone https://github.com/ucancprem/Weather-Application.git`
 
-2) use `cd` command and navigate into folder "Weather-Application" (directory containing pom.xml)
+2) use `cd Weather-Application` command and navigate into folder "Weather-Application" (directory containing pom.xml)
 
 
 3) use `mvn compile` to compile the project (you can run this command from git bash or command prompt)
@@ -23,6 +23,8 @@ Spring-MVC-maven based weather application
 
 #Run Unit Tests
 
+Open your command prompt(use `cmd`) 
+
 #a) Run all the methods in both test classes using below commands
 
 `mvn -Dtest=WeatherMockServiceTest test` (Total of 11 test methods)
@@ -33,67 +35,67 @@ Spring-MVC-maven based weather application
 
 **Mock Form validation when zip is more than 5 characters long.**
 
-`mvn -Dtest=RestMockTest#testForErrorMoreThanFiveDigits test`
+`mvn -Dtest=WeatherMockServiceTest#testForErrorMoreThanFiveDigits test`
 
     
 **Mock Form with invalid ZIP and check for Error Message.**
 
-mvn -Dtest=RestMockTest#testForErrorWithErrorMessage test`
+mvn -Dtest=WeatherMockServiceTest#testForErrorWithErrorMessage test`
 
 
 **Mock Form with valid 5-digit ZIP and check for errors.**
 
-`mvn -Dtest=RestMockTest#testForValidFiveDigitZip test`
+`mvn -Dtest=WeatherMockServiceTest#testForValidFiveDigitZip test`
 
 
 
 **Mock Form validation when zip is less than 5 characters long.**
 
-`mvn -Dtest=RestMockTest#testForErrorLessThanFiveDigits test`
+`mvn -Dtest=WeatherMockServiceTest#testForErrorLessThanFiveDigits test`
 
 
 
 **Mock Form validation when entered empty String.**
 
-`mvn -Dtest=RestMockTest#testEmptyZip test`
+`mvn -Dtest=WeatherMockServiceTest#testEmptyZip test`
 
 
 
 **Mock to check 5-digit zip code which is not present.**
 
-`mvn -Dtest=RestMockTest#createOrUpdateSuccessful test`
+`mvn -Dtest=WeatherMockServiceTest#createOrUpdateSuccessful test`
 
 
 **Mock Form to non-digit zip code entry.**
 
-`mvn -Dtest=RestMockTest#testForErrorCharacterAsZipInput test`
+`mvn -Dtest=WeatherMockServiceTest#testForErrorCharacterAsZipInput test`
 
 
 
 **Check Basic page rendering.**
 
-`mvn -Dtest=RestMockTest#checkForPageDisplay test`
+`mvn -Dtest=WeatherMockServiceTest#checkForPageDisplay test`
 
 
 **Mock Form to test view name when an valid zip is entered.**
 
-`mvn -Dtest=RestMockTest#testViewNameWithValidZip test`
+`mvn -Dtest=WeatherMockServiceTest#testViewNameWithValidZip test`
 
 
 
 **Mock Form to test view name when an invalid zip is entered.**
 
-`mvn -Dtest=RestMockTest#testViewNameWithInValidZip test`
+`mvn -Dtest=WeatherMockServiceTest#testViewNameWithInValidZip test`
 
 
 **Mock Form with valid 9-digit ZIP and check for errors.**
 
-`mvn -Dtest=RestMockTest#testForValidNineDigitZip test`
+`mvn -Dtest=WeatherMockServiceTest#testForValidNineDigitZip test`
 
 
 ** Mock Form with valid 5-digit ZIP and check for errors.**
 
-`mvn -Dtest=RestMockTest#testForValidFiveDigitZip test`
+`mvn -Dtest=WeatherMockServiceTest#testForValidFiveDigitZip test`
 
 
 
