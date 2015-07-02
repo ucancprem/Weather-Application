@@ -9,7 +9,7 @@ Spring-MVC-maven based weather application
 
 2) use `cd` command and navigate into folder "Weather-Application" (directory containing pom.xml)
 
-3) In this directory containing pom.xml, use the below command to run the project using tomcat 7.
+3) In this directory containing pom.xml, use the below command to run the project using tomcat 7.(you can run this command from git bash or command prompt)
 
 `mvn clean install tomcat7:run`
 
