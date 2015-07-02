@@ -70,7 +70,7 @@ mvn -Dtest=RestMockTest#testForErrorWithErrorMessage test`
 
 
 
-** Check Basic page rendering.**
+**Check Basic page rendering.**
 
 `mvn -Dtest=RestMockTest#checkForPageDisplay test`
 
@@ -99,6 +99,7 @@ mvn -Dtest=RestMockTest#testForErrorWithErrorMessage test`
 
 
 **basic mock request validation.**
+
 `mvn -Dtest=RestMockTest#performRequestValidation test`
 
 	
