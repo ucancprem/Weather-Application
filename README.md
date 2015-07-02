@@ -40,7 +40,7 @@ Open your command prompt(use `cmd`)
     
 **Mock Form with invalid ZIP and check for Error Message.**
 
-mvn -Dtest=WeatherMockServiceTest#testForErrorWithErrorMessage test`
+`mvn -Dtest=WeatherMockServiceTest#testForErrorWithErrorMessage test`
 
 
 **Mock Form with valid 5-digit ZIP and check for errors.**
