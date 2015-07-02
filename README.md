@@ -15,7 +15,7 @@ Spring-MVC-maven based weather application
 
 4) Use the below URL to access the home page of the project.
 
-`http://localhost:8080/weatherdisplay/display` or click here 
+`http://localhost:8080/weatherdisplay/display` or click  
 [access home page!](http://localhost:8080/weatherdisplay/display)
 
 5) Some of the Inputs you may want to use
