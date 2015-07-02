@@ -33,6 +33,8 @@ Open your command prompt(use `cmd`)
 
 #b) To run each method induvidually use commands below
 
+#Method Level tests for class 2(WeatherMockServiceTest)
+
 **Mock Form validation when zip is more than 5 characters long.**
 
 `mvn -Dtest=WeatherMockServiceTest#testForErrorMoreThanFiveDigits test`
@@ -98,6 +100,7 @@ Open your command prompt(use `cmd`)
 `mvn -Dtest=WeatherMockServiceTest#testForValidFiveDigitZip test`
 
 
+#Method Level tests for class 2(RestMockTest)
 
 
 **basic mock request validation.**
